@@ -1,0 +1,20 @@
+<script>
+    //Problema: Calcular a potênia de um número sem usar Math.pow
+    /*
+    Peça para o usuário informar um número qualquer e a potência que ele deseja elevar este número. Apresente o resultado final da potência.
+    Por exemplo, caso o usuário informe o número 2 e a potência 3, o programa deve apresentar o número 8.
+    */
+    //AQUI, USE FOR COM VARIÁVEL DE CONTROLE!!!
+
+    //Entrada
+    const numero = Number(prompt(`informe um número`));
+    
+    let potencia = Number(prompt(`informe numero para elevar ${numero} `));
+    
+    //Processamento
+    for(let contador = 1; contador <= potencia; contador++){
+        let sla = numero * contador ;
+        document.write(`${sla}`);
+    }
+   
+</script>
